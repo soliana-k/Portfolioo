@@ -4,7 +4,11 @@ module.exports = {
     './src/**/*.{js,jsx,ts,tsx}*'
   ],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage:{
+        'bronze-teal': 'linear-gradient(to right, #78350F, #134E4A)',
+      }
+    },
   },
   plugins: [],
 }
